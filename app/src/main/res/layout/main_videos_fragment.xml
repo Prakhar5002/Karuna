@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".videos.MainVideosFragment">
+
+    <include layout="@layout/toolbar_layout"/>
+
+    <Button
+        android:id="@+id/bn_testing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+        android:background="@drawable/recycler_design"
+        android:text="Testing"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:fontFamily="@font/montserrat_bold"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/bn_councelling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+        android:background="@drawable/recycler_design"
+        android:text="Councelling"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:fontFamily="@font/montserrat_bold"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/bn_videos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+        android:background="@drawable/recycler_design"
+        android:text="Videos"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:fontFamily="@font/montserrat_bold"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+        android:background="@drawable/recycler_design"
+        android:text="Settings"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:fontFamily="@font/montserrat_bold"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

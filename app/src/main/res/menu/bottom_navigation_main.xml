@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home_item"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/mental_item"
+        android:icon="@drawable/mental_fitness"
+        android:title="Mental Fitness"/>
+
+    <item
+        android:id="@+id/spiritual_item"
+        android:icon="@drawable/spiritual_fitness"
+        android:title="Spiritual Fitness"/>
+
+    <item
+        android:id="@+id/physical_item"
+        android:icon="@drawable/physical_fitness"
+        android:title="Physical Fitness"/>
+
+    <item
+        android:id="@+id/videos_item"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="More"/>
+</menu>

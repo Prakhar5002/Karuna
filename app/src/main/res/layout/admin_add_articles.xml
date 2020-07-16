@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin.AdminAddArticles">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Articles Here..\n(English)"
+            android:textSize="24dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"/>
+
+        <Button
+            android:id="@+id/admin_p_articles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/recycler_design"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/white"
+            android:text="Physical Fitness"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/admin_m_articles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/recycler_design"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="24dp"
+            android:textColor="@color/white"
+            android:text="Mental Fitness)"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/admin_s_articles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/recycler_design"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="24dp"
+            android:textColor="@color/white"
+            android:text="Spiritual Fitness"
+            android:textAllCaps="false"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Articles Here..\n(Hindi)"
+            android:textSize="24dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"/>
+
+        <Button
+            android:id="@+id/admin_p_articleshin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/recycler_design"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/white"
+            android:text="Physical Fitness"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/admin_m_articleshin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/recycler_design"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="24dp"
+            android:textColor="@color/white"
+            android:text="Mental Fitness)"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/admin_s_articleshin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/recycler_design"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="24dp"
+            android:textColor="@color/white"
+            android:text="Spiritual Fitness"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+</ScrollView>
